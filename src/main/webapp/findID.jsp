@@ -12,7 +12,7 @@
 			<legend>ID 찾기</legend>
 			<div>
 				<span>이메일</span>
-				<input type="text" placeholder="이메일 입력" name="email"value="asdf123@naver.com">
+				<input type="text" placeholder="이메일 입력" name="email" value="asd123@naver.com">
 			</div>
 
 			<div>
@@ -20,7 +20,7 @@
 			</div>
 			<hr>
 			<div align="right">
-				<span ><a href="index.jsp">돌아가기</a></span>
+				<span ><a href="index.jsp">돌아가기..</a></span>
 			</div>
 		</fieldset>
 	</form>
