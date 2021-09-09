@@ -1,60 +1,56 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-	<form method="post" action="insertMember.jsp">
-		<fieldset style="width: 200px">
-			<legend>È¸¿ø°¡ÀÔ</legend>
+	<form method="post" action="insertMember.jsp" name="register">
+		<fieldset style="width:200px">
+			<legend>íšŒì›ê°€ì…</legend>
 			<div>
-				<span>¾ÆÀÌµğ</span> 
-				<input type="text" placeholder="¾ÆÀÌµğ ÀÔ·Â" name="id" value="tiger123">
-				<input type="button" value="Áßº¹È®ÀÎ" onclick="javascript:openWin();"/>
+				<span>ì•„ì´ë””</span> 
+				<input type="text" placeholder="ì•„ì´ë”” ì…ë ¥" name="id" value="tiger123">
+				<input type="button" value="ì¤‘ë³µí™•ì¸" onclick="javascript:openWin();" />
 			</div>
 			<div>
-				<span>ºñ¹Ğ¹øÈ£</span> <input type="text" placeholder="ºñ¹Ğ¹øÈ£"
-					name="ps" value="1234">
+				<span>ë¹„ë°€ë²ˆí˜¸</span>
+				<input type="text" placeholder="ë¹„ë°€ë²ˆí˜¸" name="ps" value="1234">
 			</div>
 			<div>
-				<span>ÀÌ¸§</span> <input type="text" placeholder="ÀÌ¸§" name="name"
-					value="soobin">
+				<span>ì´ë¦„</span>
+				<input type="text" placeholder="ì´ë¦„" name="name" value="DongGeon">
 			</div>
 			<div>
-				<span>»ı³â¿ùÀÏ</span> <input type="text" placeholder="»ı³â¿øÀÏ"
-					name="birth" value="951212">
+				<span>ìƒë…„ì›”ì¼</span>
+				<input type="text" placeholder="ìƒë…„ì›ì¼" name="birth" value="940919">
 			</div>
 			<div>
-				<span>¿¬¶ôÃ³</span> <input type="text" placeholder="¿¬¶ôÃ³"
-					name="phone" value="01048492160">
+				<span>ì—°ë½ì²˜</span>
+				<input type="text" placeholder="ì—°ë½ì²˜" name="phone" value="01012345678">
 			</div>
 			<div>
-				<span>ÀÌ¸ŞÀÏ</span> <input type="text" placeholder="ÀÌ¸ŞÀÏ"
-					name="email" value="asdf123@naver.com">
+				<span>ì´ë©”ì¼</span>
+				<input type="text" placeholder="ì´ë©”ì¼" name="email" value="register_test@naver.com">
 			</div>
-
 			<div>
-				<input type="submit" value="°¡ÀÔÇÏ±â" />
+				<input type="submit" value="ê°€ì…í•˜ê¸°" />
 			</div>
 			<hr>
 			<div align="right">
-				<span><a href="index.jsp">µ¹¾Æ°¡±â</a></span>
+				<span><a href="index.jsp">ëŒì•„ê°€ê¸°</a></span>
 			</div>
 		</fieldset>
 	</form>
 
-	<script language="javascript" type="text/javascript">  
-
-
-		function openWin() {
-			window.open("checkID.jsp", "Áßº¹È®ÀÎ",
-						"width=200, height=100, toolbar=no, menubar=no, scrollbars=no, resizable=yes");
-		}
+	<script type="text/javascript">  
+	function openWin() {
+		var inputID = document.register.id.value;
+		window.open("checkID.jsp?inputID=" + inputID, "ì•„ì´ë”” ì¤‘ë³µí™•ì¸", "width=300, height=100, toolbar=no, menubar=no, scrollbars=no, resizable=yes");
+	}
 	</script>
-
 </body>
 
 
