@@ -46,7 +46,7 @@
 	</div>
 		<%} else{%>
 	<h1>PW 찾기 실패</h1>
-	<div>ID 또는 이메일 입력이 올바르지 않습니다.</div>
+	<div>ID 또는 이메일 입력이 올바르지 않습니다..</div>
 	<div>
 		<span><a href="findPW.jsp">돌아가기</a></span>
 	</div>

@@ -24,7 +24,7 @@
 			</div>
 			<hr>
 			<div align="right">
-				<span ><a href="index.jsp">돌아가기</a></span>
+				<span ><a href="index.jsp">돌아가기.</a></span>
 			</div>
 		</fieldset>
 	</form>

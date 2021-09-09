@@ -44,7 +44,7 @@
 	</div>
 		<%} else{%>
 	<h1>ID 찾기 실패</h1>
-	<div>이메일 입력이 올바르지 않습니다.</div>
+	<div>이메일 입력이 올바르지 않습니다..</div>
 	<div>
 		<span><a href="findID.jsp">돌아가기</a></span>
 	</div>
